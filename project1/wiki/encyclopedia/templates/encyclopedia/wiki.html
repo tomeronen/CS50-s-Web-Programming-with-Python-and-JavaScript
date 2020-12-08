@@ -5,5 +5,9 @@
 {% endblock %}
 
 {% block body %}
-    {{wiki_content|safe}}
+    {% if wiki_exists %}
+        {{wiki_content|safe}}
+    {% else %}
+        <h1> Error - wiki "{{wiki_title}}" not found </h1>
+    {% endif %}
 {% endblock %}

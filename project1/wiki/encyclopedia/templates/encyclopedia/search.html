@@ -1,15 +1,15 @@
 {% extends "encyclopedia/layout.html" %}
 
 {% block title %}
-    Encyclopedia
+    Saerch Results
 {% endblock %}
 
 {% block body %}
-    <h1>All Pages</h1>
+    <h1>All Results</h1>
 
     <ul>
-        {% for entry in entries %}
-        <li><a href="wiki/{{entry}}"> {{entry}}</a></li>
+        {% for wiki_name in wiki_names %}
+        <li><a href="{{wiki_name}}"> {{wiki_name}}</a></li>
         {% endfor %}
     </ul>
 
