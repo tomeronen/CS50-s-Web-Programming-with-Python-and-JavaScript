@@ -1,0 +1,10 @@
+#searchForm{
+    text-align:center;
+}
+#navBar{
+    text-align:right;
+}
+#searchButton{
+    margin:10px;
+    border-radius:8px;
+}
