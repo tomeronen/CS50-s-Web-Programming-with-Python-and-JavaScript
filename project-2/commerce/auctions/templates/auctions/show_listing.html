@@ -1,0 +1,9 @@
+{% extends "auctions/layout.html" %}
+
+{% block body %}
+    <h2> {{listing.title}}</h2>
+    <form action="/add/watch_list">
+        {% csrf_token %}
+        <input class="form-control" type="submit" value="Add To Watch List ">
+    </form>
+{% endblock %}

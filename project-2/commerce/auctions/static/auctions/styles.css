@@ -1,0 +1,18 @@
+body {
+    padding: 10px;
+}
+
+#listing{
+    border: thick double #32a1ce;
+    margin: 8px;
+    float:left;
+    width:100%;
+}
+#listing h2{
+    font-size: 24px;
+}
+
+#listing img{
+    float:left;
+    width:20%;
+}
